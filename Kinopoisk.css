@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    background-color: black;
+    padding: 18px 0;
+    width: 100%;
+}
+
+.input-btn{
+    object-fit: cover;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    column-gap: 30px;
+}
+
+.input-box{
+    margin-left: 35px;
+    display: flex;
+}
+
+.signln-box{
+    margin-left: auto;
+    display: flex;
+    column-gap: 20px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.silteme:hover{
+    background-color: aqua;
+    text-decoration: none;
+    color: #808080;
+}
+
+main{
+    margin: 0 70px;
+    padding-top: 140px;
+}
+
+.afisha{
+    border: 2px solid chocolate;
+    height: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.afisha-img{
+    width: 100%;
+}
+
+.nav-box{
+    display: flex;
+    column-gap: 20px;
+}
+.qorapp{
+    width: 500%;
+}
+.kino-tizim{
+    display:flex;
+    column-gap: 70px;  
+    flex-wrap: wrap;
+}
+.kino{
+    width: 30%;
+    display: flex;
+}
+.kino-suret{
+    width: 100%;
+}
+.color{
+    background-color: azure;
+}

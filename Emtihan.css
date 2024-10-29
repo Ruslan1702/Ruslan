@@ -1,0 +1,162 @@
+*{
+   margin: 0;
+}
+
+header{
+   background-color: #48B38F;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+}
+
+h2{
+   color: #fff;
+}
+
+.date{
+   background-color: azure;
+   padding: 10px;
+   transition-duration: 0.5s;
+   transition-timing-function: cubic-bezier(0.75, 0.99, 0.21, 0.01);
+}
+
+.title-box{
+   display: flex;
+   column-gap: 25px;
+}
+
+main{
+   width: 70%;
+   margin: 20px auto;
+}
+
+img{
+   width: 80%;
+}
+
+.title{
+   width: 45%;
+}
+
+.prog-lang{
+   width: 55%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   row-gap: 20px;
+}
+
+.row-color{
+   background-color: #48B38F;
+}
+
+.info-box{
+   display: flex;
+   width: 85%;
+   margin: 50px auto;
+   column-gap: 30px;
+}
+
+table{
+   width: 60%;
+}
+
+form{
+   width: 40%;
+}
+
+.fullstack-desc{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+iframe{
+   margin-top: 30px;
+   width: 100%;
+   height: 450px;
+}
+
+footer{
+   text-align: center;
+   margin-bottom: 50px;
+}
+h2{
+   transition-duration: 5s, 1s;
+   transition-property: color,margin-top;
+}
+
+h2:hover{
+   color: brown;
+   margin-top: 20px;
+   font-size: 60px;
+}
+
+.date:hover{
+   background-color: darkslategrey;
+   padding: 20px;
+   
+}
+
+
+.box{
+   margin-bottom: 600px;
+   background-color: rgb(255, 0, 128);
+   width: 300px;
+   height: 200px;
+   margin-left: 50px;
+   margin-top: 50px;
+   animation-name: myAnimation;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   
+}
+
+
+@keyframes myAnimation{
+   0%{
+      padding: 0;
+      color: rgb(0, 0, 0);
+   }
+   50%{
+      padding: 30px;
+      color: #fff;
+   }
+   100%{
+      padding: 70px;
+      color: black;
+   }
+}
+.input-box{
+   width: 300px;
+   height: 40px;
+   margin-left: 35px;
+   display: flex;
+   align-items: center;
+   background-color: hsla(0,0%,100%,.15);
+   border-radius: 10px;
+   position: relative;
+}
+
+.input-btn{
+   background-color: transparent;
+   border: none;
+   position: absolute;
+   right: 7px;
+}
+
+.input{
+   background-color: transparent;
+   border: none;
+   outline: none;
+   border-radius:15px;
+   padding: 10px 15px;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   left: 0;
+}
+
+.input:focus{
+   background-color: aliceblue;
+}
